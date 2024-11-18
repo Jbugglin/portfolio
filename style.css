@@ -38,7 +38,12 @@ nav ul li a {
 
 /* Main card styling */
 main{
-    border: 1px solid blue;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main h1 {

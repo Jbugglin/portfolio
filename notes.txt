@@ -7,7 +7,7 @@ My Goal:
 Portfolio needs:
     -Who are you
     -What you can do
-    -Showcase work
+    -Showcase work - screenshot of work with description.
     -extra features to impress recruiters
 
 
@@ -18,25 +18,3 @@ Projects outside of frontend mentor challenges:
     -API-connected website (weather - RESTful API)
     -"Perfect score" website (Lighthouse score of 100 per metric)
 
-What I need to do:
-    ::This week:
-    ::This month:
-    ::This Quarter (3 months):
-    ::This Year:
-
-
-
-Dot The I Creative:
-
-    Process: 
-        1. Discovery and wireframing
-        2. Content strategy and design
-        3. Dev & integration
-        4. client review an launch
-        5. measure analyze optimize report repeat
-
-    Needs:
-        -strong portfolio of Projects
-        -Familiarity with webflow, client-first and attributes by finsweet, relume component library
-        -html, css, js
-        -webflow cms
