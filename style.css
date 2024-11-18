@@ -1,0 +1,52 @@
+body {
+    max-width: 100dvw;
+    max-height: 100dvh;
+}
+
+/* Navbar styling */
+nav {
+    border: 1px solid red;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarLogo {
+    margin: 1rem;
+}
+
+.navbarLinks {
+    display: flex;
+    justify-content: right;
+    margin: 1rem;
+}
+
+.navbarLinks li {
+    margin-left: 1rem;
+}
+
+/* Main card styling */
+main{
+    border: 1px solid blue;
+}
+
+main h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+main p {
+    margin: 1rem 3rem;
+    text-align: center;
+}
