@@ -1,20 +1,16 @@
-My Goal: 
-    ==> Get out of printing and into a dev job as soon as possible. 
-    ==> Be able to have work hour/day flexibility
-    ==> Be more financially secure. 
+Ideas:
 
 
-Portfolio needs:
-    -Who are you
-    -What you can do
-    -Showcase work - screenshot of work with description.
-    -extra features to impress recruiters
+Background: I want the bg to correspond with the greeting.
 
+    -color gradients for:
+        -morning 
+        -afternoon
+        -evening
+        -night
 
-
-Projects outside of frontend mentor challenges:
-    -Clone website
-    -CRUD web App (todo/notes - use react or vue)
-    -API-connected website (weather - RESTful API)
-    -"Perfect score" website (Lighthouse score of 100 per metric)
-
+    -possibly animate the bg to show the sun/moon in relation to the greeting:
+        -morning: Sun rising breaking horizon. Samecolors as afternoon but with a touch of sepia.
+        -afternoon: Sun At top of page. Vibrant colors.
+        -evening: Sun setting on horizon. Oranges/reds/browns/black
+        -night: Sun gone and Moon brightly appearing. Darker colors
