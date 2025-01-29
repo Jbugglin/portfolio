@@ -3,19 +3,20 @@
  *  will change the greeting of the webpage 
  *  accordingly. (Morning, Afternoon, and Evening).
  */
-//const hours = new Date().getHours();
-const hours = 19
-console.log(hours)
-if(hours < 12){
-    document.getElementById('timeGreet').innerHTML = "Morning!";
-    // Morning bg colors
-    document.body.style.backgroundImage = 'linear-gradient(0deg, green, lightblue 50%, darkblue 95%)';
-} else if (12 < hours < 17) {
-    document.getElementById('timeGreet').innerHTML = "Afternoon!";
-    // Afternoon bg colors
-    document.body.style.backgroundImage = 'linear-gradient(0deg, lightgreen, lightblue 30%)';
+const now = new Date();
+ const hours = now.getHours();
+let timeGreeting = "";
+
+if (hours < 12) {
+    greeting = "Morning!";
+    document.body.style.backgroundImage = "linear-gradient(to top, pink, yellow)";
+} else if (hours < 18) {
+    greeting = "Afternoon!";
+    document.body.style.backgroundImage = "linear-gradient(to top, lightblue, blue)";
 } else {
-    document.getElementById('timeGreet').innerHTML = "Evening!";
-    // Evening bg colors
-    document.body.style.backgroundImage = 'linear-gradient(0deg, red, yellow, orange, darkblue)';
+    greeting = "Evening!";
+    document.body.style.backgroundImage = "linear-gradient(to top right, red, purple, blue)";
+    document.body.style.color = "white"
 }
+
+document.getElementById("timeGreet").textContent = greeting;
