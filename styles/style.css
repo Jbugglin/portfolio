@@ -24,7 +24,7 @@ main {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 100dvh;
     scroll-snap-align: start;
     display: flex;
     justify-content: center;
@@ -77,4 +77,43 @@ h1 {
 #skills ul li {
     list-style-type: none;
     font-size: 1.125rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0.5rem auto;
+}
+
+.form-input label {
+    width: 30%;
+}
+
+.form-input input {
+    width: 70%;
+}
+
+.form-input textarea {
+    width: 70%;
+}
+
+.form-input-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.form-input-buttons input {
+    width: 30%;
+    margin: 0rem 0rem 0rem 1.75rem;
 }
