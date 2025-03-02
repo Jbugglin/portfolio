@@ -4,7 +4,7 @@
  *  accordingly. (Morning, Afternoon, and Evening).
  */
 const now = new Date();
- const hours = now.getHours();
+const hours = now.getHours();
 let timeGreeting = "";
 
 if (hours < 12) {
