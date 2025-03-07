@@ -12,7 +12,7 @@ if (hours < 12) {
     document.body.style.backgroundImage = "linear-gradient(to top, pink, yellow)";
 } else if (hours < 18) {
     greeting = "Afternoon!";
-    document.body.style.backgroundImage = "linear-gradient(to top, lightblue, blue)";
+    document.body.style.backgroundImage = "linear-gradient(to top, #a8dbcb, #a8c2db 25%)";
 } else {
     greeting = "Evening!";
     document.body.style.backgroundImage = "linear-gradient(to top right, red, purple, blue)";
