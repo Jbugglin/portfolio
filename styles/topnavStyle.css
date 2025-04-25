@@ -1,29 +1,55 @@
-/* Styles for the top navigation */
 .topnav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
 }
 
-/* Hamburger menu */
-.hamburger {
-    display: block;
+.menu-icon {
+    display: none;
     cursor: pointer;
 }
 
-/* Navigation links */
-.nav-links {
-    display: none;
+.menu-icon i {
+    font-size: 24px;
 }
 
-/* Show links and hide hamburger on larger screens */
-@media (min-width: 426px) {
-    .hamburger {
-        display: none;
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 426px) {
+    .menu-icon {
+        display: block;
     }
 
     .nav-links {
-        display: flex;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 200px;
+        background-color: #333;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: right 0.3s ease-in-out;
+    }
+
+    .nav-links.active {
+        right: 0;
     }
 }
-

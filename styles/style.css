@@ -19,3 +19,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
