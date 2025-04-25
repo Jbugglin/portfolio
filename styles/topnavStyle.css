@@ -1,0 +1,28 @@
+/* Styles for the top navigation */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hamburger menu */
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+/* Navigation links */
+.nav-links {
+    display: none;
+}
+
+/* Show links and hide hamburger on larger screens */
+@media (min-width: 426px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+}

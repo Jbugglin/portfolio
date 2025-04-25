@@ -1,0 +1,79 @@
+<main>
+        <section id="greeting">
+            <h1 id="salutation">Good <span id="timeGreet"></span></h1>
+            <p> 
+                My name is Jordan, and I am a self-taught front-end developer.
+            </p>
+        </section>
+
+        <section id="about-me">
+            <h1>About Me</h1>
+            <div class="left-column">
+                <p>
+                    My journey started out in 2015, during my studies at Franklin University, with a project that had a very simple front-end that required me to connect to a MySQL database in order to display the requested information. This was a vast departure from debugging and coding hundreds to thousands of lines of Java code through a proprietary IDE. Shortly after, I took a haitus from developing altogether to focus on figuring out life and trying to pursue something that my wife and I had been talking about since late 2010, a family.
+                </p>
+                <p>
+                    We had our eldest child during the COVID-19 global pandemic, in which she was born April 2020. My job in the printing industry was filled with uncertainty, cut hours and pay, having to battle with trying to figure out what we needed to do next and how to utilize the shared work Ohio plan...Absolute chaos is the only way I can explain what we had to experience through this time period.
+                </p>
+            </div>
+            <div class="right-column">
+                <p>
+                    While juggling working on 3rd shift, and taking care of a new baby girl during the day, and maintaining relationships with loved ones locked down during this time, I needed a creative outlet. 
+                </p>
+                <p>
+                    This is where programming in general, and more specifically, web development came into my life yet again. This takes us to present day 2025, I am still sitting at this laptop writing as much code as I can while both of my beautiful baby girls take their afternoon naps, and learning as much as I can in the meantime. 
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+                <li>Javascript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>MySQL/SQL</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>
+                Coming soon!
+            </p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me!</h1>
+            <div class="form-container">
+                <form action="action_page.php">
+                    <div class="form-input">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="firstname" id="fname" placeholder="Your Name..." required autocomplete="given-name">
+                    </div>
+
+                    <div class="form-input">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lastname" id="lname" placeholder="Your Last Name..." required autocomplete="family-name">
+                    </div>
+
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email..." required autocomplete="email">
+                    </div>
+
+                    <div class="form-input">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="What's on your mind..." required></textarea>
+                    </div>
+
+                    <div class="form-input-buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </div>
+                </form>
+        </section>
+    </main>
+    <script src="./greeting.js"></script>
