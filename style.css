@@ -17,14 +17,17 @@ html, body {
 /* Global variables */
 :root {
     /* Variables for Nav */
-    --bar-width: 25px;
+    --bar-width: 35px;
     --bar-height: 4px;
     --bar-gap: 6px;
     --foreground: #333;
     --background: white;
-    --hamburger-margin: 5px;
+    --hamburger-margin: 10px;
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--bar-gap) * 2);
+
+    --heavy-font-logo: 900;
+    --logo-font-L: 1.25rem;
 }
 
 
@@ -103,6 +106,16 @@ html, body {
     height: 100vh;
 }
 
+.sidebar ul li {
+    list-style-type: none;
+    margin: 1rem 0rem;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 .hamburger-menu:has(input:checked) + .sidebar {
     translate: 0;
 }
@@ -117,6 +130,21 @@ html, body {
         translate: 0;
         max-width: none;
         width: 100%;
-        height: 50px;
+        height: 55px;
+        padding: 0;
+    }
+
+    nav, ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        padding: 0rem 1rem;
+    }
+
+    li {
+        margin: 0rem 0.5rem;
     }
 }
