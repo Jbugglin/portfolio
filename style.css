@@ -1,12 +1,8 @@
 /* Very basic reset */
-*, 
-*::after,
- *::before {
+*, body {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -14,137 +10,91 @@ html, body {
     height: 100dvh;
 }
 
-/* Global variables */
-:root {
-    /* Variables for Nav */
-    --bar-width: 35px;
-    --bar-height: 4px;
-    --bar-gap: 6px;
-    --foreground: #333;
-    --background: white;
-    --hamburger-margin: 10px;
-    --animation-timing: 200ms ease-in-out;
-    --hamburger-height: calc(var(--bar-height) * 3 + var(--bar-gap) * 2);
-
-    --heavy-font-logo: 900;
-    --logo-font-L: 1.25rem;
+/* Nav-bar */
+header {
+    height: 50px;
+    padding: 0rem 1rem;
 }
 
-
-/* Side-transitioning Nav (From webdev simplified YT...) */
-.hamburger-menu {
-    --x-width: calc(var(--hamburger-height) * 1.41421356237);
-
+nav {
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: var(--bar-gap);
-    width: max-content;
-    position: absolute;
-    top: var(--hamburger-margin);
-    left: var(--hamburger-margin); /* This can be moved to right side */
-    z-index: 2;
-    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hamburger-menu:has(input:checked) {
-    --foreground: white;
-    --background: #333;
+.logo-container {
+    height: inherit;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hamburger-menu:has(input:focus-visible)::before,
-.hamburger-menu:has(input:focus-visible)::after,
-.hamburger-menu input:focus-visible {
-    border: 1px solid var(--background);
-    box-shadow:  0 0 0 1px var(--foreground)    ;
-}
-
-.hamburger-menu:before, 
-.hamburger-menu:after,
-.hamburger-menu input {
-    content: "";
-    width: var(--bar-width);
-    height: var(--bar-height);
-    background-color: var(--foreground);
-    border-radius: 9999px;
-    transform-origin: left center;
-    transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), background-color var(--animation-timing);
-}
-
-.hamburger-menu input {
-    appearance: none;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    pointer-events: none;
-}
-
-.hamburger-menu:has(input:checked)::before {
-    rotate: 45deg;
-    width: var(--x-width);
-    translate: 0 calc(var(--bar-height) / -2);
-}
-
-.hamburger-menu:has(input:checked)::after {
-    rotate: -45deg;
-    width: var(--x-width);
-    translate: 0 calc(var(--bar-height) / 2);
-}
-
-.hamburger-menu input:checked {
-    opacity: 0;
-    width: 0;
-}
-
-.sidebar {
-    transition: translate var(--animation-timing);
-    translate: -100%;
-    padding: 0.5rem 1rem;
-    padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-    background-color: var(--foreground);
-    color: var(--background);
-    max-width: 10rem;
-    height: 100vh;
-}
-
-.sidebar ul li {
-    list-style-type: none;
-    margin: 1rem 0rem;
-}
-
-.sidebar ul li a {
+.logo-container > a{
     text-decoration: none;
-    color: white;
+    list-style: none;
+    color: black;
+    font-weight: 700;
 }
 
-.hamburger-menu:has(input:checked) + .sidebar {
-    translate: 0;
+ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Media query for desktop larger than 769px - no tablet yet */
-@media only screen and (min-width: 769px) {
-    .hamburger-menu {
+ul li {
+    list-style-type: none;
+    margin: 0px 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li:hover {
+    color: green;
+    border: 1px solid green;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    /* Style the hamburger icon and hide the close icon */
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+    .hamburger #closeHam {
         display: none;
     }
-
-    .sidebar {
-        translate: 0;
-        max-width: none;
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 58px;
         width: 100%;
-        height: 55px;
-        padding: 0;
-    }
-
-    nav, ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    nav {
-        padding: 0rem 1rem;
-    }
-
-    li {
-        margin: 0rem 0.5rem;
+        height: calc(100vh - 58px);
+        padding-top: 60px;
+        border: 1px solid red;
     }
 }
