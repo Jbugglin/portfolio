@@ -77,6 +77,15 @@ ul li a {
     color: black;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
 @media screen and (max-width:768px) {
     /* Style the hamburger icon and hide the close icon */
     .hamburger {
