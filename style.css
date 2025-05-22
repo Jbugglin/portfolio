@@ -1,3 +1,8 @@
+:root {
+    --resp-nav-bg: #333;
+    --resp-nav-font-color: white;
+}
+
 /* Very basic reset */
 *, body {
     box-sizing: border-box;
@@ -8,6 +13,14 @@
 html, body {
     width: 100dvw;
     height: 100dvh;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 /* Nav-bar */
@@ -92,9 +105,11 @@ footer {
         display: flex;
         cursor: pointer;
     }
+
     .hamburger #closeHam {
         display: none;
     }
+
     .nav-items {
         display: none;
         flex-direction: column;
@@ -102,8 +117,17 @@ footer {
         right: 0;
         top: 58px;
         width: 100%;
-        height: calc(100vh - 58px);
-        padding-top: 60px;
+        height: 50%;
         border: 1px solid red;
+        background-color: var(--resp-nav-bg);
+    }
+
+    .nav-items li {
+        width: 100%;
+        height: 100px;
+    }
+
+    .nav-items li a {
+        color: var(--resp-nav-font-color);
     }
 }
