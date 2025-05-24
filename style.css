@@ -33,10 +33,6 @@ header {
     align-items: center;
 }
 
-.logo-container a:hover {
-    border: 1px solid blue;
-}
-
 nav {
     width: 100%;
     height: inherit;
@@ -55,6 +51,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0rem 1rem;
 }
 
 .logo-container > a{
@@ -93,6 +90,7 @@ ul li a {
     font-size: 20px;
     font-weight: 800;
     color: black;
+    padding: 0rem 1rem;
 }
 
 section {
