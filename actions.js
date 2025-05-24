@@ -24,11 +24,10 @@ closeHam.addEventListener('click', () => hamburgerEvent("none", "none", "block")
 function homeGreeting() {
     let span = document.getElementById("greeting");
     let hours = new Date();
-    console.log(hours);
-    if (hours < 12) {
+    if (hours.getHours() < 12) {
         //console.log("Morning");
         span.innerText = "Morning";
-    } else if (hours >= 12 && hours < 18 ){
+    } else if (hours.getHours() >= 12 && hours.getHours() < 18 ){
         //console.log("Afternoon");
         span.innerText = "Afternoon";
     } else {

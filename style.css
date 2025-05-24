@@ -1,6 +1,6 @@
 :root {
-    --resp-nav-bg: #333;
-    --resp-nav-font-color: white;
+    --resp-nav-bg: white;
+    --resp-nav-font-color: black;
 }
 
 /* Very basic reset */
@@ -18,23 +18,24 @@ html, body {
 main {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 /* Nav-bar */
 header {
     height: 50px;
-    padding: 0rem 1rem;
+    padding: 0rem;
 }
 
 nav {
-    height: 100%;
     width: 100%;
+    height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    background-color: white;
 }
 
 .logo-container {
@@ -90,8 +91,34 @@ ul li a {
     color: black;
 }
 
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.heroSection {
+    background-color: red;
+}
+
+.about {
+    background-color: green;
+}
+
+.projects {
+    background-color: blue;
+}
+
+.contact {
+    background-color: fuchsia;
+}
+
 footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     display: flex;
