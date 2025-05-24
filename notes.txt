@@ -1,44 +1,21 @@
-Simple...home page, about, works...maybe darkmode. and 
+Personal intro - introduces you, interests in web dev and goals.
 
-Need responsive navbar.
+Skills section - List tech skills: html/css/js, frameworks, backend, tools, etc.
 
+projects - 3 to 5 projects that demo skills/abilities. 
+			Include:
+				title & description
+				tech used
+				link to live page and source
+				-personal website or blog 
+				-simple web app (todo, weather, etc)
+				-Clone of an existing website 
+				-open source contributions? 
 
+Design and usability - well designed and user-friendly
+						responsive and visually appealing 
 
-Self-hosted powered by reliable web hosting provider...
+Contact info - contact form that works and ways for potential employers to reach out. 
 
-VPS with DDoS protection
+Resume - optional ut make it a downloadable pdf. 
 
-Custom domain...
-
--How I want to represent myself (FE, BE, F-S)
--the work i want hired for (web/apps, apis, etc)
--what makes me stand out (focus on design, technologies, etc)
--best and unique projects (accurately represents abilities and style)
-
-Start with Minimum Viable Product, then add more content and functionality over time
-
-The goal is to get it up and running  ASAP
-
-SHIP THE MVP...TREAT SITE AS ONGOING EVOLUTION
-
-Includes:
--homepage - who you are and what you do
-
--skills - languages, frameworks & libs, technologies, programs and tools (figma, sketch, VSCode)
-
--projects - include short description and context, requirements, approach used, lang/frame/libs/tech used, challenges, completion, screenshots and links to finished project. 
-
--about page - headshot? idk...but this tells who you are and what you do in depth.
-
--contact info - make it as easy as possible, contact form/email/calendly link for booking a call/social media profile links/chatbot or possible live chat. 
-
--links to projects on other platforms - GitHub/Behance/Dribbble/Adobe Portfolio/CodePen. 
-
--links to resume and social media profiles
-
-Nice to have: Evidence of Social Proof.
-	-testimonials from happy clients
-	-References from employers
-	-links to publications or websites your work was featured in
-	-media mentions
-	-awards or recognition. 
