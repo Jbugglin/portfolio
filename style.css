@@ -3,7 +3,7 @@
 }
 
 /* Very basic reset */
-*, body {
+*, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -27,14 +27,17 @@ header {
 
 main {
     width: 100%;
-    height: min-content;
-    border: 3px solid red;
+    height: auto;
+    
 }
 
 section {
-    height: 100dvh;
+    height: 100vh;
     border: 2px solid green;
-    padding-top: var(--header-height);
+    padding-top: var(--header-height); 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 nav, ul {
