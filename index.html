@@ -9,32 +9,110 @@
     <title>Jordan Bugglin's Portfolio</title>
 </head>
 <body onload="homeGreeting()">
-    <header>
-        <nav>
-            <ul class="topNav">
-                <li><a href="#heroSection">Home</a></li>
-                <li><a href="#aboutSection">About</a></li>
-                <li><a href="#projectsSection">Projects</a></li>
-                <li><a href="#contactSection">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <section id="heroSection">
-            <h1>Good <span id="greeting"></span></h1>
+        <section class="hero">
+            <h1>Good <span id="greeting"></span></h1><br>
+            <h2>Welcome To My Portfolio</h2>
         </section>
 
-        <section id="aboutSection">
-            <h1>About Section</h1>
+        <section class="welcome">
+            <h2>Some words of action</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, rem velit. Magnam dolorem cum ratione fuga nam mollitia debitis consequuntur fugit, nesciunt iure unde suscipit dolores. Culpa nostrum quidem deserunt.</p>
         </section>
 
-        <section id="projectsSection">
-            <h1>Project Section</h1>
+        <section class="aboutMe">
+            <img src="" alt="">
+            <h1>About Me</h1>
+            <h2></h2>
+            <p></p>
         </section>
 
-        <section id="contactSection">
-            <h1>Contact Section</h1>
+        <section class="projects">
+            <h1>My Work</h1>
+            <div class="portfolio-items">
+                <!-- Portfolio Item #1 -->
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <h2 class="portfolio-title">Project Name</h2>
+                        <p class="portfolio-desc">Short description here</p>
+                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
+                    </figcaption>
+                </figure>
+
+                <!-- Portfolio Item #2 -->
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <h2 class="portfolio-title">Project Name</h2>
+                        <p class="portfolio-desc">Short description here</p>
+                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
+                    </figcaption>
+                </figure>
+
+                <!-- Portfolio Item #3 -->
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <h2 class="portfolio-title">Project Name</h2>
+                        <p class="portfolio-desc">Short description here</p>
+                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
+                    </figcaption>
+                </figure>
+                <!-- Portfolio Item #4 -->
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <h2 class="portfolio-title">Project Name</h2>
+                        <p class="portfolio-desc">Short description here</p>
+                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
+                    </figcaption>
+                </figure>
+
+                <!-- Portfolio Item #5 -->
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <h2 class="portfolio-title">Project Name</h2>
+                        <p class="portfolio-desc">Short description here</p>
+                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
+                    </figcaption>
+                </figure>
+            </div>
         </section>
+
+        <section class="contactMe">
+            <h1>Contact Me!</h1>
+            <form action="">
+                <label class="name">Name:
+                    <input type="text" id="name" required>
+                </label>
+                
+
+                <label class="email">Email:
+                    <input type="email" id="email" required>
+                </label>
+
+                <label class="message">Message:
+                    <textarea name="message" id="message" required></textarea>
+                </label>
+                <label class="send">
+                    <input type="button" value="Send">
+                </label>
+            </form>
+        </section>
+
+        <footer>
+            <p>Follow me on social media</p>
+            <div class="social-icons">
+                <img class="social-icon" src="" alt="">
+                <img class="social-icon" src="" alt="">
+                <img class="social-icon" src="" alt="">
+                <img class="social-icon" src="" alt="">
+            </div>
+        </footer>
+
+
     </main>
     <script src="./actions.js"></script>
 </body>

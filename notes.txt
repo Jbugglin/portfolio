@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 Personal intro - introduces you, interests in web dev and goals.
 
 Skills section - List tech skills: html/css/js, frameworks, backend, tools, etc.
