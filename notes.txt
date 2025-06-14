@@ -1,31 +1,3 @@
-
-
-
-
-
-
-
-Personal intro - introduces you, interests in web dev and goals.
-
-Skills section - List tech skills: html/css/js, frameworks, backend, tools, etc.
-
-projects - 3 to 5 projects that demo skills/abilities. 
-			Include:
-				title & description
-				tech used
-				link to live page and source
-				-personal website or blog 
-				-simple web app (todo, weather, etc)
-				-Clone of an existing website 
-				-open source contributions? 
-
-Design and usability - well designed and user-friendly
-						responsive and visually appealing 
-
-Contact info - contact form that works and ways for potential employers to reach out. 
-
-Resume - optional ut make it a downloadable pdf. 
-
 Colors:
 Alternates for Pure white:
 	off-white: #faf9f6
@@ -41,3 +13,14 @@ Alternates for Pure Black:
 	Midnight blue: #101720
 	Oil slick: #031602
 	
+Needs:
+	-Homepage: Who you are and what you do summed up, bonus for headshot?
+	-Skills: Programming languages, frameworks & libs, Technologies, Programs and tools (Figma, sketch, vscode)
+	-projects: short desc and context of project, requirements of project, approach used, languages/frameworks/libs, challenges faced and overcame
+	-About Me: Tells a story about who you are and what you do
+	-Contact info: contact form, email
+	-links to projects on other platforms 
+	-links to resume and social media profiles 
+	-mention that site hand-built or hand-crafted 
+	-copyright year 2025
+	-Integrate a form backend (Getform.io)...
