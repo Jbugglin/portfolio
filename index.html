@@ -9,88 +9,30 @@
     <title>Jordan Bugglin's Portfolio</title>
 </head>
 <body onload="homeGreeting()">
-    <header>
-        <nav>
-            <ul class="topNav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">JB</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contact</a>
+                </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-    <main>
-        <section class="home" id="home">
-            <h1>Good <span id="greeting"></span>, I'm Jordan!</h1><br>
-            <h2>A self-taught front-end Dev</h2>
-        </section>
 
-        <section class="about" id="about">
-            <img src="" alt="">
-            <h1>About Me</h1>
-            <h2></h2>
-            <p></p>
-        </section>
-
-        <section class="projects" id="projects">
-            <h1>My Work</h1>
-            <div class="portfolio-items">
-                <!-- Portfolio Item #1 -->
-                <figure>
-                    <img src="" alt="" class="project-img">
-                    <figcaption>
-                        <h2 class="portfolio-title">Project Name</h2>
-                        <p class="portfolio-desc">Short description here</p>
-                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
-                    </figcaption>
-                </figure>
-
-                <!-- Portfolio Item #2 -->
-                <figure>
-                    <img src="" alt="" class="project-img">
-                    <figcaption>
-                        <h2 class="portfolio-title">Project Name</h2>
-                        <p class="portfolio-desc">Short description here</p>
-                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
-                    </figcaption>
-                </figure>
-
-                <!-- Portfolio Item #3 -->
-                <figure>
-                    <img src="" alt="" class="project-img">
-                    <figcaption>
-                        <h2 class="portfolio-title">Project Name</h2>
-                        <p class="portfolio-desc">Short description here</p>
-                        <a href="#" class="portfolio-link" target="_blank">Link to project</a>
-                    </figcaption>
-                </figure>
-
-        <section class="contact" id="contact">
-            <h1>Contact Me!</h1>
-            <form method="post" action="http://formsubmit.co/jbugglin@gmail.com">
-                <label class="name">
-                    <input type="text" name="name" id="name" required placeholder="Name:">
-                </label>
-                
-                <label class="email">
-                    <input type="email" name="email" id="email" required placeholder="Email:">
-                </label>
-
-                <label class="message">
-                    <textarea name="message" id="message" required placeholder="Your Message:"></textarea>
-                </label>
-                <label class="send">
-                    <input type="button" value="Send">
-                </label>
-            </form>
-        </section>
-
-        <footer>
-            <p>Hand-built by me using: HTML5, CSS3, vanilla JS</p>
-            <p class="copy">Copyright 2025</p>
-        </footer>
-
-    </main>
+    <main></main>
+    <footer></footer>
     <script src="./actions.js"></script>
 </body>
 </html>
