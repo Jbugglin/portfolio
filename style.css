@@ -17,6 +17,7 @@ header li {
 
 header li a {
     text-decoration: none;
+    color: black;
 }
 
 .header {
@@ -24,11 +25,24 @@ header li a {
     background-color: white;
 }
 
+.nav-menu {
+    display: flex;
+    margin: 0rem 1rem;
+}
+
+.nav-item {
+    margin: 0rem 0.25rem;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+}
+
+#home-menu-link {
+    display: none;
 }
 
 .hamburger {
