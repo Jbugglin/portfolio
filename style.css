@@ -21,6 +21,7 @@ header li a {
 
 .header {
     border-bottom: 1px solid #E2E8F0;
+    background-color: white;
 }
 
 .navbar {
@@ -41,6 +42,23 @@ header li a {
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.greeting-container{
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem black;
+    text-align: center;
+    background-color: white;
 }
 
 @media only screen and (max-width: 769px) {

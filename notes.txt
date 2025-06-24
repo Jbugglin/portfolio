@@ -26,3 +26,9 @@ Needs:
 	-Integrate a form backend (Getform.io)...
 
 	
+FCC:
+	-Portfolio website...duh..
+	-Clone website...CCS rework?
+	-CRUD web app...Use framework such as React or Vue...
+	-API-connected website 
+	-"Perfect score" website...

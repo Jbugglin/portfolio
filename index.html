@@ -9,18 +9,21 @@
     <title>Jordan Bugglin's Portfolio</title>
 </head>
 <body onload="homeGreeting()">
-    <header class="header">
+    <header class="header" id="header">
         <nav class="navbar">
             <a href="index.html" class="nav-logo">JB</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#">About</a>
+                    <a href="#hero-section">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Projects</a>
+                    <a href="#about-section">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Contact</a>
+                    <a href="#project-section">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-section">Contact</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -31,7 +34,18 @@
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <section id="hero-section">
+            <div class="greeting-container" id="greeting-container">
+                <h1>Good <span id="greeting"></span>!</h1>
+                <h1>I'm Jordan, a frontend web dev</h1>
+            </div>
+        </section>
+
+        <section id="about-section">About</section>
+        <section id="project-section">Projects</section>
+        <section id="contact-section">Contact Me</section>
+    </main>
     <footer></footer>
     <script src="./actions.js"></script>
 </body>
