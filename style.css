@@ -25,6 +25,16 @@ header li a {
     background-color: white;
 }
 
+#about-section {
+    flex-direction: column;
+}
+
+#about-section p {
+    border: 1px solid red;
+    width: 500px;
+}
+
+
 .nav-menu {
     display: flex;
     margin: 0rem 1rem;
@@ -73,6 +83,7 @@ section {
     box-shadow: 1rem 1rem 1rem black;
     text-align: center;
     background-color: white;
+    width: 85vw;
 }
 
 @media only screen and (max-width: 769px) {
