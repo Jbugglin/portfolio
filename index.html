@@ -44,10 +44,25 @@
 
         <section id="about-section">
             <h1>A Little about me (working heading):</h1>
-            <p>I started out learning frontend web development over the course of a few years, starting back in 2019, the start of the global COVID-19 pandemic. As things were looking bleak, my wife an I were expecting our first child, and I needed something to do to one day make a career out of. Up to this point I have worked in various warehouses and print-shops. I remembered a course that I took while studying at Franklin University, in the Computer Science degree track, that was a course developing a full-stack web site. I had come to really enjoy that class, so I started to learn and dive into developing my own sites. </p>
+            <p>This is where I need to carefully craft an about me section. Tell a little about how I got started. </p>
         </section>
-        <section id="project-section">Projects</section>
-        <section id="contact-section">Contact Me</section>
+        
+        <section id="project-section">
+            <h1>Projects Coming Soon!!!</h1>
+            <p>I am on the fence on either creating a carousel or just have a few different projects tiled out with live links and descriptions. Bear with me, I'm anticipating on finishing this project around <strong>8/1/2025</strong>.</p>
+        </section>
+
+        <section id="contact-section">
+            <h1>Contact Me!</h1>
+            <div id="response-message"></div> <!-- Display API response message -->
+
+            <form id="contact-form" action="https://formsubmit.co/2bb3bd0536d715da7fa4380de01d9366" method="POST" />
+                <input type="text" name="name" id="name" class="feedback-input" placeholder="Name" required />
+                <input type="email" name="email" id="email" class="feedback-input" placeholder="Email" required />
+                <textarea name="message" id="message" class="feedback-input" placeholder="Comment" required></textarea>
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
     </main>
     <footer></footer>
     <script src="./actions.js"></script>
