@@ -25,10 +25,6 @@ header li a {
     background-color: white;
 }
 
-h1 {
-    text-align: center;
-}
-
 .nav-menu {
     display: flex;
     margin: 0rem 1rem;
@@ -62,15 +58,6 @@ h1 {
     background-color: #101010;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100dvw;
-    height: 20dvh;
-}
-
 #contact-form input {
     margin: 0.5rem 0rem;
     display: flex;
@@ -79,6 +66,8 @@ section {
     justify-content: center;
 }
 
+
+/* This media query is only for the navbar and hamburger menu */
 @media only screen and (max-width: 769px) {
     .nav-menu {
         position: fixed;
@@ -116,5 +105,27 @@ section {
 
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    html, body {
+        overflow: hidden;
+    }
+
+    main {
+        width: 100dvw;
+        height: 100dvh;
+    }
+
+    section {
+        border: 1px solid blue;
+        margin: 1rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    section p {
+        width: 600px;
     }
 }
