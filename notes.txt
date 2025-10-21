@@ -32,3 +32,18 @@ FCC:
 	-CRUD web app...Use framework such as React or Vue...
 	-API-connected website 
 	-"Perfect score" website...
+
+
+	Links at navbar need to jump to the different sections, also, make the sections all 100vh. That way they are spaced and requires either scrolling or jump. 
+
+Static header, include a dark-mode, CTA, LOGO that links to index.html
+
+Hero: 
+Name, brief-brief desc, some artwork...
+link to projects...
+about me...keep it as simple as possible.
+projects: write a brief desc about each one, tiled, pix of the work and link to the hosted page, and tech used. 
+Contact form....make it decently large...
+link to github and whatever socials.
+
+look into a domain name and hosting. 

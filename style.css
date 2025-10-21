@@ -1,3 +1,8 @@
+:root {
+
+}
+
+
 /* Very basic reset */
 *, *::after, *::before {
     box-sizing: border-box;
@@ -10,122 +15,43 @@ html, body {
     height: 100dvh;
 }
 
-/* ** Responsive Navbar** */
-header li {
-    list-style: none;
+main{
+    width: 100%;
+    height: auto;
 }
 
-header li a {
-    text-decoration: none;
-    color: black;
-}
-
-.header {
-    border-bottom: 1px solid #E2E8F0;
-    background-color: white;
-}
-
-.nav-menu {
+/* Generic Styling */
+section {
+    height: 100dvh;
+    width: 100%;
     display: flex;
-    margin: 0rem 1rem;
-}
-
-.nav-item {
-    margin: 0rem 0.25rem;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem 1.5rem;
+    flex-direction: column;
+    padding: 2rem;
 }
 
-#home-menu-link {
-    display: none;
+/* Hero Section */
+#hero-section {
+    text-align: center;
 }
 
-.hamburger {
-    display: none;
+#under-hero-heading {
+    font-size: 0.85rem;
 }
 
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
-}
 
-#contact-form input {
-    margin: 0.5rem 0rem;
+/* About Section */
+
+/* Project Section */
+
+/* Contact Section */
+#contact-section form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-
-/* This media query is only for the navbar and hamburger menu */
-@media only screen and (max-width: 769px) {
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0,0,0,0.05);
-    }
-    
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0rem;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-}
-
-@media only screen and (min-width: 769px) {
-    html, body {
-        overflow: hidden;
-    }
-
-    main {
-        width: 100dvw;
-        height: 100dvh;
-    }
-
-    section {
-        border: 1px solid blue;
-        margin: 1rem;
-        width: fit-content;
-        height: fit-content;
-    }
-
-    section p {
-        width: 600px;
-    }
+#contact-section input, 
+#contact-section textarea {
+    margin: 0.5rem 0rem;
 }

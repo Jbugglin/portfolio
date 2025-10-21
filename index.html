@@ -9,42 +9,19 @@
     <title>Jordan Bugglin's Portfolio</title>
 </head>
 <body onload="homeGreeting()">
-    <header class="header" id="header">
-        <nav class="navbar">
-            <a href="index.html" class="nav-logo">JB</a>
-            <ul class="nav-menu">
-                <li class="nav-item" id="home-menu-link">
-                    <a href="#hero-section">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about-section">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#project-section">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact-section">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
+    <header class="header" id="header">    </header>
 
     <main>
         <section id="hero-section">
             <div class="greeting-container" id="greeting-container">
                 <h1>Good <span id="greeting"></span>!</h1>
-                <h1>I'm Jordan, a frontend web dev</h1>
+                <h1>I'm Jordan, a frontend web dev...</h1>
+                <span id="under-hero-heading">(Who is also a life-long learner and loves tinkering...)</span>
             </div>
         </section>
 
         <section id="about-section">
-            <h1>A Little about me (working heading):</h1>
-            <p>This is where I need to carefully craft an about me section. Tell a little about how I got started. </p>
+            <h1>KEEP IT BRIEF</h1>
         </section>
         
         <section id="project-section">
@@ -52,14 +29,20 @@
             <p>I am on the fence on either creating a carousel or just have a few different projects tiled out with live links and descriptions. Bear with me, I'm anticipating on finishing this project around <strong>8/1/2025</strong>.</p>
         </section>
 
+        <section id="technologies">
+            <h1>Technologies</h1>
+        </section>
+
         <section id="contact-section">
-            <h1>Contact Me!</h1>
+            <h1>I would love to hear from you,</h1>
+            <h1> let's get in touch!</h1>
+            
             <div id="response-message"></div> <!-- Display API response message -->
 
             <form id="contact-form" action="https://formsubmit.co/2bb3bd0536d715da7fa4380de01d9366" method="POST" />
                 <input type="text" name="name" id="name" class="feedback-input" placeholder="Name" required />
                 <input type="email" name="email" id="email" class="feedback-input" placeholder="Email" required />
-                <textarea name="message" id="message" class="feedback-input" placeholder="Comment" required></textarea>
+                <textarea name="message" id="message" class="feedback-input" placeholder="Message" required></textarea>
                 <input type="submit" value="Submit" />
             </form>
         </section>
